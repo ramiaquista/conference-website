@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Personal Portfolio - Ramiro Aquistapace
+# E3 Electronic Entertainment Exposition 2022 - Ramiro Aquistapace
 
 > In this project, I have set up a Conferece Website.
 
@@ -40,7 +40,7 @@ Add Live Server VSCode extension to deploy a local host server in order to start
 
 ### Live Demo Server
 
-- [My Portfolio](https://ramiaquista.github.io/conference-website/)
+- [E3 Website](https://ramiaquista.github.io/conference-website/)
 
 
 
