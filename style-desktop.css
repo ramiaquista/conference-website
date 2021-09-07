@@ -11,8 +11,40 @@
 
   .social-nav {
     background-color: #38393b;
-    padding: 10px;
+    padding: 1% 4.5%;
     margin: 0%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .social-nav > h4 {
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .social-nav .fab {
+    font-size: 18px;
+    color: white;
+    margin-right: 20px;
+  }
+
+  #navbarNav {
+    justify-content: flex-end;
+    padding: 0% 4%;
+  }
+
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: #ec5242;
+  }
+
+  .nav-item {
+    margin-left: 20px;
+  }
+
+  .navbar-brand {
+    margin-left: 8%;
   }
 
   .info-container {
@@ -33,7 +65,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    position: relative;
+    position: absolute;
     z-index: -1;
   }
 
@@ -111,7 +143,19 @@
     padding-bottom: 10%;
   }
 
-  .fab {
+  .program-list .fab {
+    margin: 10px 15px;
+    color: white;
+    font-size: 30px;
+  }
+
+  .program-list .fas {
+    margin: 10px 15px;
+    color: white;
+    font-size: 30px;
+  }
+
+  .partner-list .fab {
     margin: 10px 15px;
     color: white;
     font-size: 30px;
@@ -294,7 +338,7 @@
     display: none;
   }
 
-  .company-rights {
+  .about-company-rights {
     background-color: rgb(48, 48, 48);
     color: white;
   }

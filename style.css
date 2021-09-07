@@ -451,3 +451,15 @@ body {
   font-weight: 300;
   font-size: 15px;
 }
+
+.program-list .fab {
+  margin: 10px 15px;
+  color: white;
+  font-size: 30px;
+}
+
+.program-list .fas {
+  margin: 10px 15px;
+  color: white;
+  font-size: 30px;
+}
