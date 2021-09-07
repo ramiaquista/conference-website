@@ -7,6 +7,7 @@
     background-color: white;
     padding: 15px;
     box-shadow: 0 4px 6px -6px rgb(80, 80, 80);
+    width: 100%;
   }
 
   .social-nav {
@@ -15,6 +16,7 @@
     margin: 0%;
     justify-content: flex-end;
     align-items: center;
+    width: 100%;
   }
 
   .social-nav > h4 {
@@ -58,7 +60,7 @@
 
   .info-container::after {
     content: '';
-    background: url('img/e3-bg-img.jpeg') center no-repeat;
+    background: url('img/e3-bg-img.jpeg') center no-repeat fixed;
     background-size: cover;
     opacity: 0.1;
     top: 0;
@@ -67,6 +69,7 @@
     right: 0;
     position: absolute;
     z-index: -1;
+    height: 300vh;
   }
 
   .section-title {

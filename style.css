@@ -40,7 +40,7 @@ body {
 
 .info-container::after {
   content: '';
-  background: url('img/e3-bg-img.jpeg') center no-repeat;
+  background: url('img/e3-bg-img.jpeg') center no-repeat fixed;
   background-size: cover;
   opacity: 0.1;
   top: 0;
@@ -49,6 +49,7 @@ body {
   right: 0;
   position: absolute;
   z-index: -1;
+  height: 130vh;
 }
 
 .section-title {
