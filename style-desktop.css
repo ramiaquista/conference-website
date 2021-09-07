@@ -360,4 +360,17 @@
     background-color: rgb(48, 48, 48);
     color: white;
   }
+
+  .footer-partner .fab {
+    margin: 10px 15px;
+    color: white;
+    font-size: 30px;
+  }
+
+  .footer-partner {
+    background-color: #3f4042;
+    height: auto;
+    flex-direction: column;
+    padding: 22px;
+  }
 }
