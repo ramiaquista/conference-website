@@ -234,13 +234,26 @@ body {
 
 .about-page {
   flex-direction: column;
-  background-color: #e5e5e5;
 }
 
 .about-info-container {
   flex-direction: column;
   margin: 22px;
   padding-bottom: 20px;
+}
+
+.about-info-container::after {
+  content: '';
+  background: url('img/e3-about-bg.jpeg') center no-repeat fixed;
+  background-size: cover;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  height: 130vh;
 }
 
 .about-title-container {
@@ -405,7 +418,7 @@ body {
 
 /* Footer Container */
 
-.footer-partner {
+.about-footer-partner {
   background-color: #3f4042;
   height: auto;
   flex-direction: column;
@@ -421,13 +434,13 @@ body {
   flex-wrap: wrap;
 }
 
-.footer-partner .fab {
+.about-footer-partner .fab {
   margin: 10px 15px;
   color: white;
   font-size: 30px;
 }
 
-.company-rights {
+.about-company-rights {
   background-color: white;
   padding: 22px;
   padding-top: 10px;

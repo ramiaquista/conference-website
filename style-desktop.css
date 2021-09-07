@@ -236,6 +236,21 @@
     flex-direction: column;
     padding: 4% 23%;
     padding-bottom: 6%;
+    height: auto;
+  }
+
+  .about-info-container::after {
+    content: '';
+    background: url('img/e3-about-bg.jpeg') center no-repeat fixed;
+    background-size: cover;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    height: 250vh;
   }
 
   .about-title {
