@@ -25,6 +25,24 @@
   </head>
   <body>
     <header>
+      <section class="menu-container">
+        <section class="mobile-menu dnone-mobile" id="m-menu">
+          <div class="menu-header">
+            <i class="fas fa-times" id="cancel-icon"></i>
+          </div>
+          <div class="menu-options">
+            <ul id="options-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="about-page.html">About</a></li>
+              <li><a href="#program">Program</a></li>
+              <li><a href="#program">Join</a></li>
+              <li><a href="#sponsor">Sponsor</a></li>
+              <li><a href="about-page.html#past-events">Events</a></li>
+            </ul>
+          </div>
+        </section>
+        <nav><i class="fas fa-bars" id="hamb-icon"></i></nav>
+      </section>
       <section class="social-nav dnone">
         <i class="fab fa-facebook-f"></i>
         <i class="fab fa-twitter"></i>
@@ -32,7 +50,7 @@
         <h4>My Page</h4>
         <h4>English</h4>
       </section>
-      <nav class="navbar navbar-expand-md navbar-light">
+      <nav class="navbar navbar-expand-md navbar-light dnone">
         <div class="container-fluid">
           <button
             class="navbar-toggler"
@@ -284,5 +302,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="speakers-data.js"></script>
+    <script src="menu-options.js"></script>
   </body>
 </html>

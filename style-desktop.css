@@ -377,4 +377,12 @@
   .other-sp-container {
     display: none;
   }
+
+  .dnone-mobile {
+    display: none;
+  }
+
+  .menu-container {
+    display: none;
+  }
 }

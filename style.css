@@ -504,7 +504,65 @@ body {
   display: none;
 }
 
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .show > .nav-link {
-  color: #ec5242;
+.dnone-mobile {
+  display: none;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: flex-start;
+  height: auto;
+  margin: 15px 25px;
+}
+
+#hamb-icon {
+  font-size: 24px;
+}
+
+.menu-header {
+  display: flex;
+  margin-top: 15px;
+}
+
+#cancel-icon {
+  color: white;
+  font-size: 25px;
+}
+
+#options-list {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 32px;
+}
+
+#options-list > li > a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+#options-list > li {
+  margin-bottom: 20px;
+}
+
+.menu-header > i {
+  margin-left: 30px;
+  margin-right: auto;
+}
+
+.mobile-menu {
+  background: rgba(236, 106, 66, 0.616);
+  backdrop-filter: blur(10px);
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
