@@ -477,3 +477,21 @@ body {
   color: white;
   font-size: 30px;
 }
+
+.other-sp-container {
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 5px;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.other-sp-container > h4 {
+  font-size: 15px;
+  font-weight: 300;
+  padding: 10px;
+  margin-bottom: 0%;
+}
+
+.other-sp-container .fas {
+  color: #ec5242;
+}

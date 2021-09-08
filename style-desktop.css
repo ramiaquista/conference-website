@@ -133,13 +133,13 @@
   .program-list > li > h3 {
     margin: 5px;
     color: #ec5242;
-    font-size: 17px;
+    font-size: 24px;
   }
 
   .program-list > li > p {
     margin: 10px;
     color: white;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 300;
     text-align: center;
     line-height: 26px;
@@ -155,7 +155,7 @@
   .program-list .fas {
     margin: 10px 15px;
     color: white;
-    font-size: 30px;
+    font-size: 50px;
   }
 
   .partner-list .fab {
@@ -227,7 +227,7 @@
   }
 
   .company-img-container > img {
-    width: 10%;
+    width: 7%;
   }
 
   /* About Page */
@@ -372,5 +372,9 @@
     height: auto;
     flex-direction: column;
     padding: 22px;
+  }
+
+  .other-sp-container {
+    display: none;
   }
 }
