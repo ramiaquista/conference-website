@@ -9,6 +9,8 @@
 
 > Its an informative page to announce the next E3 ( Electronic Entertainment Exposition ), the biggest gaming event that will take place in Los Angeles Convention Center on 2022.
 
+> [Informative Video about the Project!](https://www.loom.com/share/a4161791d7764bf29385445001a65e58)
+
 ## Built With
 
 - HTML - CSS - JavaScript
