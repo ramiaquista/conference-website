@@ -69,3 +69,31 @@ document.addEventListener('DOMContentLoaded', () => {
     spDes.innerHTML = featuredSpeakers[i].description;
   });
 });
+
+const moreSpeakersBtn = document.getElementById('more-speakers');
+const arrowUp = document.querySelector('.fa-chevron-up');
+const arrowDown = document.querySelector('.fa-chevron-down');
+
+moreSpeakersBtn.addEventListener('click', () => {
+  if (moreSpeakersBtn.classList.contains('closed')) {
+    spLi.forEach((item) => {
+      item.classList.remove('dnone');
+    });
+    moreSpeakersBtn.classList.remove('closed');
+    moreSpeakersBtn.classList.add('opened');
+    moreSpeakersBtn.children[0].innerHTML = 'LESS';
+    arrowUp.classList.remove('altbtn');
+    arrowDown.classList.add('altbtn');
+  } else {
+    spLi.forEach((item, i) => {
+      if (i > 1) {
+        item.classList.add('dnone');
+      }
+    });
+    moreSpeakersBtn.classList.remove('opened');
+    moreSpeakersBtn.classList.add('closed');
+    moreSpeakersBtn.children[0].innerHTML = 'MORE';
+    arrowUp.classList.add('altbtn');
+    arrowDown.classList.remove('altbtn');
+  }
+});

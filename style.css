@@ -492,6 +492,14 @@ body {
   margin-bottom: 0%;
 }
 
-.other-sp-container .fas {
+.closed > i {
   color: #ec5242;
+}
+
+.opened > i {
+  color: #525355;
+}
+
+.altbtn {
+  display: none;
 }
