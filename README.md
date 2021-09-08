@@ -55,6 +55,10 @@ Add Live Server VSCode extension to deploy a local host server in order to start
 - Twitter: [@ramiaq1](https://twitter.com/ramiaq1)
 - LinkedIn: [RamiroAquistapace](https://www.linkedin.com/in/ramiro-aquistapace-32b61b204/)
 
+👤 **Credits : Cindy Shin**
+
+-License: [Cindy-Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
