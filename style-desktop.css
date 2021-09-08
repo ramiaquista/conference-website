@@ -69,7 +69,7 @@
     right: 0;
     position: absolute;
     z-index: -1;
-    height: 300vh;
+    height: 250vh;
   }
 
   .section-title {
@@ -250,7 +250,7 @@
     right: 0;
     position: absolute;
     z-index: -1;
-    height: 250vh;
+    height: 230vh;
   }
 
   .about-title {
