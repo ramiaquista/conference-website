@@ -419,7 +419,7 @@ body {
 /* Footer Container */
 
 .about-footer-partner {
-  background-color: #3f4042;
+  background-color: white;
   height: auto;
   flex-direction: column;
   padding: 22px;
@@ -432,12 +432,6 @@ body {
   align-content: baseline;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.about-footer-partner .fab {
-  margin: 10px 15px;
-  color: white;
-  font-size: 30px;
 }
 
 .about-company-rights {
@@ -565,4 +559,41 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.footer-partner {
+  background-color: white;
+  height: auto;
+  flex-direction: column;
+  padding: 22px;
+}
+
+.footer-partner .fab {
+  margin: 10px 15px;
+  color: black;
+  font-size: 30px;
+}
+
+.footer-partner .section-title {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.about-footer-partner .fab {
+  margin: 10px 15px;
+  color: black;
+  font-size: 30px;
+}
+
+.about-footer-partner .section-title {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }

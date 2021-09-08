@@ -385,4 +385,13 @@
   .menu-container {
     display: none;
   }
+
+  .footer-partner .section-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
 }
