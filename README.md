@@ -1,16 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# E3 Electronic Entertainment Exposition 2022 - Ramiro Aquistapace
+# E3 Electronic Entertainment Exposition 2022
 
-> In this project, I have set up a Conferece Website.
+> In this project, I have set up a E3 Digital Conference Website.
 
 
-<!-- ![screenshot](./sc-landingpage.png) -->
+![screenshot](./project-img.png)
 
+> Its an informative page to announce the next E3 ( Electronic Entertainment Exposition ), the biggest gaming event that will take place in Los Angeles Convention Center on 2022.
 
 ## Built With
 
-- HTML - CSS
+- HTML - CSS - JavaScript
 - Git - Github - GitFlow
 
 
@@ -22,6 +23,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Visual Studio Code or Sublime Text
 - Git
+- LiveServer Extension
 
 
 ### Setup
@@ -60,4 +62,4 @@ Contributions, issues, and feature requests are welcome!
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project! 😄
